@@ -1,0 +1,274 @@
+body{
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.125em;
+  -webkit-font-smoothing: antialiased;
+  background: #0c111b;
+}
+
+/*navbar*/
+
+.menu .logo-bar {
+  width: 40px;
+  margin: -68px 204px -46px -181px;
+}
+
+.logo .logo{
+  width: 144px;
+  margin: -6px 0 9px -170px;
+}
+
+
+.header{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+padding: 4px 30px 8px;
+height: 80px;
+align-items: center;
+text-align: center;
+background-color: #131a27;
+}
+
+.search input {
+  height: 12px;
+  max-width: 43%;
+  outline: none;
+  padding: 10px;
+  font-size: 16px;
+  margin-left: -247px;
+  /* background-color: #0c111b; */
+  margin-top: 14px;
+  cursor: hand-pointer;
+  border: none;
+  background: none;
+  border-bottom: 1px solid white;
+}
+
+.search input:focus{
+color: white;
+border-bottom: 0.5px solid #0099e5;
+padding: 10px 0 10px -20px;
+width: 600px;
+}
+
+.search .fa{
+color: white;
+}
+
+.sub{
+text-align: right;
+margin: -131px -298px -11px 20px;
+}
+
+.subscribe-btn{
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  background: #0099e5;
+  padding: 6px 9px;
+  border-radius: 4px;
+  border: none;
+  line-height: 1rem;
+  width: 100px;
+  margin: 48px -636px 0 0;
+}
+
+.login{
+  color: #fff;
+  margin: -56px 0 10px 1498px;
+}
+
+.nav {
+  flex: 1;
+  text-align: left;
+  margin: 12px 0 0 -274px;
+}
+
+.nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.nav ul li a{
+  text-decoration: none;
+  color: #cfd1d3;
+  font-size: 20px;
+  margin: 12px 0 0 -3px;
+  padding: 0px;
+}
+
+.nav ul li a:hover{
+  color: red;
+}
+
+@media screen and (max-width:600px) {
+  .menu .logo-bar {
+    width: 40px;
+    margin: 34px 0 9px -139px;
+  }
+  .logo .logo{
+    width: 144px;
+    margin: -126px 0px 36px 114px;
+  }
+  .header{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 4px 30px 8px;
+    height: 80px;
+    align-items: center;
+    text-align: center;
+    background-color: #131a27;
+    max-width: 100%;
+    }
+  .nav {
+    flex: 1;
+    text-align: left;
+    display: none;
+  }
+  
+  .nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+  }
+  
+  .nav ul li a{
+    text-decoration: none;
+    color: #cfd1d3;
+    font-size: 20px;
+    margin: 12px 0 0 -3px;
+    padding: 0px;
+  }
+  .search input {
+    height: 12px;
+    max-width: 43%;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    margin-left: -247px;
+    margin-top: 14px;
+    cursor: hand-pointer;
+    border: none;
+    background: none;
+    border-bottom: 1px solid white;
+    display: none;
+  }
+  
+  .search input:focus{
+  color: white;
+  border-bottom: 0.5px solid #0099e5;
+  padding: 10px 0 10px -20px;
+  width: 600px;
+  }
+  .search .fa{
+    color: white;
+  display: none;
+    }
+}
+
+
+/*main-section*/
+
+.main-section{
+  padding: 43px;
+}
+
+.images img{
+  max-width: 232%;
+  top: 50%;
+  margin-top: 6px;
+}
+
+.caption h1{
+  color: #fff;
+  margin: -360px 0 0 80px;
+  font-size: 40px;
+  text-align: left;
+}
+
+.caption p{
+  color: #fff;
+  text-align: left;
+  margin: 8px 0 0 80px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.caption h5{
+  color: #fff;
+  margin: 17px 0 0 80px;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 0;
+  margin-bottom: 77px;
+}
+
+.caption a{
+  color: #fff;
+  margin: 93px 0 0 80px;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.caption .fa{
+  color: white;
+  margin: -1px 0 0 24px;
+}
+
+/*main-section-mobile*/
+@media screen and (max-width:600px)   {
+  .main-section{
+    padding: 43px;
+  }
+  .images img{
+    max-width: 217%;
+    top: 50%;
+    margin-top: -14px;
+    margin-left: -312px;
+  }
+  .caption h1{
+    color: #fff;
+    margin: 4px 0 0 -5px;
+    font-size: 40px;
+    text-align: left;
+  }
+  .caption p{
+    color: #fff;
+    text-align: left;
+    margin: 8px 0 0 -4px;
+    font-size: 17px;
+    font-weight: 500;
+  }
+  .caption h5{
+    color: #fff;
+    margin: 13px 0 0 -5px;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 0;
+    margin-bottom: 45px;
+  }
+  .caption .fa{
+    color: white;
+    margin: -1px 0 0 24px;
+  }
+  .caption a{
+    color: #fff;
+    margin: 93px 0 0 -2px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+}
+
+/*footer*/
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: #282e3b;;
+  color: #fff;
+  margin: 130px 0 0 0;
+}
