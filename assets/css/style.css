@@ -140,6 +140,17 @@ margin: -131px -298px -11px 20px;
     margin: 12px 0 0 -3px;
     padding: 0px;
   }
+  .sub{
+    text-align: right;
+    margin: -131px -298px -11px 20px;
+    }
+    
+    .subscribe-btn{
+      display: none;
+    }
+    .login{
+display: none;
+    }
   .search input {
     height: 12px;
     max-width: 43%;
@@ -271,4 +282,14 @@ footer {
   background-color: #282e3b;;
   color: #fff;
   margin: 130px 0 0 0;
+}
+
+@media screen and (max-width:600px)   {
+  footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #282e3b;;
+    color: #fff;
+  }
 }
